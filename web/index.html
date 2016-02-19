@@ -1,0 +1,33 @@
+<!-- index.html -->
+<html>
+<head> 
+	<title> PopoCloud App Engine </title>
+	<meta http-equiv=Content-Type content="text/html;charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="popocloud.css"/>
+	<script type="text/javascript" src="jquery.2.0.2.js"></script>
+	<script type="text/javascript" src="jcloud.0.0.1.js"></script>
+</head>
+<body>
+	<div>
+		<div>
+			<div class="spanTxt"> List of apps availabe to install: </div>
+			<input type="button" value="Update List" id="getListBtn"></input>
+			<div id="appList" class="listStyle"></div>
+		</div>
+		<div>
+			<span> App to install: </span>
+			<input type="text"   size="30"       id="instAppTxt"></input>
+			<input type="button" value="Install" id="instAppBtn"></input>
+		</div>
+		<hr/>
+		<div>
+			<span> Installed apps: </span>
+			<input type="button" id = "getInstAppsBtn"></input>
+			<div id="instAppList" class="listStyle"></div>
+		</div>
+		<hr/>
+		<span> Result display area: </span>
+		<div float="left" id="result"></div>
+	</div>
+</body>
+</html>

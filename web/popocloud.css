@@ -1,0 +1,36 @@
+body {
+	font-family:"Times New Roman", Georgia,Serif; 
+	font-size: 120%
+}
+
+div.listStyle{	
+	margin: 20px
+} 
+
+div.spanTxt {
+	width: 15%;
+	float: left
+}
+
+hr.seperate {
+	color: blue 
+}
+
+div.appName {
+    width: 10%;
+    float: left
+}
+
+a.instApp {
+	float:left; 
+	width: 10%;
+	margin-left:10px; 
+	margin-right:50px; 
+	margin-top:4px
+}
+
+input.instAppBtn {
+	width: 100px;
+	margin-left:10px; 
+	font-size:80%
+}
